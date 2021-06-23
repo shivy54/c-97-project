@@ -17,7 +17,9 @@ while chances < 5:
         ans = int(input())
     elif ans == n:
         print("YAY, you won")
+        print("Game Over")
         chances = 6
 
 if chances == 5:
     print("You lost, the answer was " + str(n))
+    print("Game Over")
